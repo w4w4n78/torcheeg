@@ -18,7 +18,7 @@
 
 **[Documentation](https://torcheeg.readthedocs.io/)** | **[TorchEEG Examples](https://github.com/torcheeg/torcheeg/tree/main/examples)** | **[Paper](https://www.sciencedirect.com/science/article/pii/S0957417424004159)**
 
-This is my own updated version of TorchEEG to accomodate gender-separated EEG Dataset. We modify files in this folder "torcheeg/datasets/" for gender-based preprocessing.
+This is my own updated version of TorchEEG to accomodate gender-separated DREAMER Dataset. We modify files in this folder "torcheeg/datasets/" for gender-based preprocessing. Especially these files: "torcheeg/datasets/module/emotion_recognition/__init__.py" and "torcheeg/datasets/module/emotion_recognition/dreamer.py"
 
 TorchEEG is a library built on PyTorch for EEG signal analysis. TorchEEG aims to provide a plug-and-play EEG analysis tool, so that researchers can quickly reproduce EEG analysis work and start new EEG analysis research without paying attention to technical details unrelated to the research focus.
 
